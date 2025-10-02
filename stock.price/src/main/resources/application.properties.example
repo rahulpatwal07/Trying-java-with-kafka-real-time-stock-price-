@@ -1,0 +1,14 @@
+# Server Port
+server.port=8080
+
+# PostgreSQL Configuration
+spring.datasource.url=jdbc:postgresql://localhost:5432/stockdb
+spring.datasource.username=user
+spring.datasource.password=password
+spring.datasource.driver-class-name=org.postgresql.Driver
+# ... other properties ...
+
+# External API Configuration - REPLACE WITH YOUR KEY
+alpha.vantage.api.key=YOUR_ALPHA_VANTAGE_API_KEY_HERE
+alpha.vantage.base.url=https://www.alphavantage.co/query
+# ... other properties ...
